@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> CSS Card Hover Effects | Nothing4us</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class='sun'></div>
+<div class='sun--bg'></div>
+<input class='slider' step='any' type='range'>
+<svg version='1.1' xmlns='http://www.w3.org/2000/svg'>
+  <defs>
+    <filter id='goovey'>
+      <feturbulence basefrequency='.06' numoctaves='20' result='warpper' type='fractalNoise'></feturbulence>
+      <fecolormatrix in='warpper' type='hueRotate'>
+        <animate attributename='values' attributetype='XML' dur='9s' repeatcount='indefinite' values='0;110;150;210;280;360'></animate>
+      </fecolormatrix>
+      <fedisplacementmap in='SourceGraphic' scale='14' xchannelselector='R' ychannelselector='G'></fedisplacementmap>
+    </filter>
+  </defs>
+</svg>
+<!-- partial -->
+<!-- ----------------------------------------------------------------------------- CV Part -->
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="./about.png">
+                    <h3>All About Me!</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p><span style="color: #0066ff">function</span> <span style="color: #669900">getInTouch</span>() {<br>
+&nbsp<span style="color: #0066ff">var</span> <span style="color: #ff9900">name</span> <span style="color: #ff3300">=</span> <span style="color: #ffff33">"Mahesh N. Shirodkar"</span>;<br>
+&nbsp<span style="color: #0066ff">var</span> <span style="color: #ff9900">title</span> <span style="color: #ff3300">=</span> <span style="color: #ffff33">"Web Devloper"</span>;<br>
+&nbsp<span style="color: #0066ff">var</span> <span style="color: #ff9900">phone</span> <span style="color: #ff3300">=</span> <span style="color: #ffff33">"+91 845 209 5831"</span>;<br>
+&nbsp<span style="color: #0066ff">var</span> <span style="color: #ff9900">email</span><span style="color: #ff3300">=</span> <span style="color: #ffff33">"mahesh.shirodkar797@gmail.com"</span>;<br>
+&nbsp<span style="color: #0066ff">var</span> <span style="color: #ff9900">url</span> <span style="color: #ff3300">=</span> <span style="color: #ffff33">"https://github.com/FreelancerMaggy"</span>;<br>
+}<br>
+<span style="color: #ff9900">getInTouch</span>();</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="./qualif.png">
+                    <h3>Qalification</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="exp.png">
+                    <h3>Experience</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="./qualif.png">
+                    <h3>Qalification</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
